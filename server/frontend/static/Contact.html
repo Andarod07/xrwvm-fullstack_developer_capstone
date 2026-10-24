@@ -1,12 +1,16 @@
 <html>
 
 <head>
-    <!-- Link the style sheet here -->
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Dealerships</title>
+  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
 
-<div>
+<body>
+  <div>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
       <div class="container-fluid">
         <h2 style="padding-right: 5%;">Dealerships</h2>
@@ -16,27 +20,106 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+              <a class="nav-link" style="font-size: larger;" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+              <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/contact">Contact Us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div>
-        <div style="display: flex;flex-direction: row; margin:auto">
-        
+    <!-- Contact content -->
+    <div class="container my-5">
+      <div class="text-center mb-5">`
+        <h1>Contact Us</h1>
+        <p class="lead">Questions about a dealership or a review? Reach out to the right team below.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Headquarters -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Corporate Headquarters</h5>
+              <p class="card-text mb-1"><strong>Address:</strong><br>
+                1234 Main Street, Suite 500<br>
+                Springfield, IL 62701
+              </p>
+              <p class="card-text mb-1"><strong>Phone:</strong> (555) 123-4567</p>
+              <p class="card-text mb-0"><strong>Email:</strong>
+                <a href="mailto:info@dealerships.example.com">info@dealerships.example.com</a>
+              </p>
+            </div>
+          </div>
         </div>
 
+        <!-- Customer Support -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Customer Support</h5>
+              <p class="card-text mb-1"><strong>Phone:</strong> (555) 234-5678</p>
+              <p class="card-text mb-1"><strong>Email:</strong>
+                <a href="mailto:support@dealerships.example.com">support@dealerships.example.com</a>
+              </p>
+              <p class="card-text mb-0"><strong>Hours:</strong><br>
+                Mon-Fri: 8:00 AM - 6:00 PM<br>
+                Sat: 9:00 AM - 2:00 PM<br>
+                Sun: Closed
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reviews & Feedback -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Reviews &amp; Feedback</h5>
+              <p class="card-text mb-1"><strong>Contact:</strong> Jordan Rivera, Community Manager</p>
+              <p class="card-text mb-1"><strong>Phone:</strong> (555) 345-6789</p>
+              <p class="card-text mb-0"><strong>Email:</strong>
+                <a href="mailto:reviews@dealerships.example.com">reviews@dealerships.example.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Press -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Media &amp; Press</h5>
+              <p class="card-text mb-1"><strong>Contact:</strong> Taylor Morgan, PR Director</p>
+              <p class="card-text mb-1"><strong>Phone:</strong> (555) 456-7890</p>
+              <p class="card-text mb-0"><strong>Email:</strong>
+                <a href="mailto:press@dealerships.example.com">press@dealerships.example.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Follow Us</h5>
+              <p class="card-text mb-1"><strong>Facebook:</strong> facebook.com/dealerships</p>
+              <p class="card-text mb-1"><strong>Twitter/X:</strong> @dealerships</p>
+              <p class="card-text mb-0"><strong>Instagram:</strong> @dealerships_official</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 
-
-</div>
+  <script src="/static/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>
